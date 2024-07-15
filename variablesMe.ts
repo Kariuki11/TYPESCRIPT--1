@@ -16,7 +16,7 @@ let isLoggedIn: boolean = false
 
 //any
 
-let hero;
+let hero: string;
 
 function getHero(){
     return "Ken"
