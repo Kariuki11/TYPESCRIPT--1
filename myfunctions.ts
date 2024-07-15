@@ -8,12 +8,13 @@ function getUpper(val: string){
 
 function signUpUser(name: string, email: string, isPaid: boolean){}
 
-let loginUser = (name: string, email: string, isPaid: boolean) => {} 
+let loginUser = (name: string, email: string, isPaid: boolean = false) => {} 
 
 addTwo(5)
 getUpper("Ken")
 
 signUpUser("Ken", "ken@254", false)
+loginUser("K", "kk@f.com")
 
 
 export {}
