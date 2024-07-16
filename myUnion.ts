@@ -15,7 +15,7 @@ type Admin = {
 
 let hitesh: User | Admin = {name: "Kenneth", id: 334}
 
-Kenneth = {username: "hc", id: 334}
+const Kenneth = {username: "hc", id: 334}
 
 function getDbId(id: number | string){
     //making some API calls
