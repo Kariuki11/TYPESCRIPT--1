@@ -1,15 +1,14 @@
 "use strict";
+// const User = {
+//     name: "Ken",
+//     email: "K@dev.com",
+//     isActive: true
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
-var User = {
+var myUser = {
+    _id: "12345",
     name: "Ken",
     email: "K@dev.com",
-    isActive: true
+    isActive: false
 };
-// function createUser({name: string, isPaid: boolean}) {}
-// createUser()
-function createUser(_a) {
-    var name = _a.name, isPaid = _a.isPaid;
-    // console.log(`User: ${name}, Paid: ${isPaid}`);
-}
-// Correct call with an argument
-createUser({ name: "John", isPaid: true });
+myUser.email = "kkdev@gmail.com";

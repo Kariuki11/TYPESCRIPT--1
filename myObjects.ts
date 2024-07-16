@@ -47,6 +47,7 @@ let myUser: User = {
 }
 
 myUser.email =  "kkdev@gmail.com"
+//myUser._id = "asa"
   
 
 
